@@ -12,11 +12,11 @@
       },
       {
         "package": "swift-log",
-        "repositoryURL": "https://github.com/apple/swift-log.git",
+        "repositoryURL": "https://github.com/keniwhat/swift-log.git",
         "state": {
-          "branch": null,
-          "revision": "74d7b91ceebc85daf387ebb206003f78813f71aa",
-          "version": "1.2.0"
+          "branch": "master",
+          "revision": "4bb987f3f103019816812ed9a937db8c3ea2e2ad",
+          "version": null
         }
       }
     ]
