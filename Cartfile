@@ -1,2 +1,3 @@
 github "keniwhat/swift-log.git" "master"
+github "keniwhat/LoggerAPI.git" "master"
 
