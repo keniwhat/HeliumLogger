@@ -5,14 +5,14 @@
    objects = {
       "HeliumLogger::HeliumLogger" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_40";
+         buildConfigurationList = "OBJ_44";
          buildPhases = (
-            "OBJ_43",
-            "OBJ_47"
+            "OBJ_47",
+            "OBJ_51"
          );
          dependencies = (
-            "OBJ_50",
-            "OBJ_52"
+            "OBJ_54",
+            "OBJ_56"
          );
          name = "HeliumLogger";
          productName = "HeliumLogger";
@@ -26,26 +26,26 @@
       };
       "HeliumLogger::HeliumLoggerPackageTests::ProductTarget" = {
          isa = "PBXAggregateTarget";
-         buildConfigurationList = "OBJ_61";
+         buildConfigurationList = "OBJ_65";
          buildPhases = (
          );
          dependencies = (
-            "OBJ_64"
+            "OBJ_68"
          );
          name = "HeliumLoggerPackageTests";
          productName = "HeliumLoggerPackageTests";
       };
       "HeliumLogger::HeliumLoggerTests" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_66";
+         buildConfigurationList = "OBJ_70";
          buildPhases = (
-            "OBJ_69",
-            "OBJ_74"
+            "OBJ_73",
+            "OBJ_78"
          );
          dependencies = (
-            "OBJ_78",
-            "OBJ_79",
-            "OBJ_80"
+            "OBJ_82",
+            "OBJ_83",
+            "OBJ_84"
          );
          name = "HeliumLoggerTests";
          productName = "HeliumLoggerTests";
@@ -59,9 +59,9 @@
       };
       "HeliumLogger::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_55";
+         buildConfigurationList = "OBJ_59";
          buildPhases = (
-            "OBJ_58"
+            "OBJ_62"
          );
          dependencies = (
          );
@@ -71,13 +71,13 @@
       };
       "LoggerAPI::LoggerAPI" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_81";
+         buildConfigurationList = "OBJ_85";
          buildPhases = (
-            "OBJ_84",
-            "OBJ_86"
+            "OBJ_88",
+            "OBJ_90"
          );
          dependencies = (
-            "OBJ_88"
+            "OBJ_92"
          );
          name = "LoggerAPI";
          productName = "LoggerAPI";
@@ -91,9 +91,9 @@
       };
       "LoggerAPI::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_90";
+         buildConfigurationList = "OBJ_94";
          buildPhases = (
-            "OBJ_93"
+            "OBJ_97"
          );
          dependencies = (
          );
@@ -134,28 +134,122 @@
          sourceTree = "<group>";
       };
       "OBJ_100" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "HeliumLogger.xcodeproj/Logging_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Logging";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "Logging";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_101" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "HeliumLogger.xcodeproj/Logging_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Logging";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "Logging";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_102" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_103",
+            "OBJ_104",
+            "OBJ_105"
+         );
+      };
+      "OBJ_103" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_25";
+      };
+      "OBJ_104" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_26";
       };
-      "OBJ_101" = {
+      "OBJ_105" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_27";
       };
-      "OBJ_102" = {
+      "OBJ_106" = {
          isa = "PBXFrameworksBuildPhase";
          files = (
          );
       };
-      "OBJ_104" = {
+      "OBJ_108" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_105",
-            "OBJ_106"
+            "OBJ_109",
+            "OBJ_110"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_105" = {
+      "OBJ_109" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
@@ -175,7 +269,12 @@
          };
          name = "Debug";
       };
-      "OBJ_106" = {
+      "OBJ_11" = {
+         isa = "PBXFileReference";
+         path = "HeliumStreamLogger.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_110" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
@@ -195,20 +294,15 @@
          };
          name = "Release";
       };
-      "OBJ_107" = {
+      "OBJ_111" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_108"
+            "OBJ_112"
          );
       };
-      "OBJ_108" = {
+      "OBJ_112" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_28";
-      };
-      "OBJ_11" = {
-         isa = "PBXFileReference";
-         path = "HeliumStreamLogger.swift";
-         sourceTree = "<group>";
       };
       "OBJ_12" = {
          isa = "PBXGroup";
@@ -307,7 +401,7 @@
             "OBJ_24",
             "OBJ_28"
          );
-         name = "swift-log 1.2.0";
+         name = "swift-log";
          path = "";
          sourceTree = "SOURCE_ROOT";
       };
@@ -347,10 +441,10 @@
       "OBJ_29" = {
          isa = "PBXGroup";
          children = (
-            "HeliumLogger::HeliumLoggerTests::Product",
-            "HeliumLogger::HeliumLogger::Product",
+            "LoggerAPI::LoggerAPI::Product",
             "swift-log::Logging::Product",
-            "LoggerAPI::LoggerAPI::Product"
+            "HeliumLogger::HeliumLoggerTests::Product",
+            "HeliumLogger::HeliumLogger::Product"
          );
          name = "Products";
          path = "";
@@ -400,27 +494,32 @@
       };
       "OBJ_34" = {
          isa = "PBXFileReference";
-         path = "docs";
+         path = "Carthage";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_35" = {
          isa = "PBXFileReference";
-         path = "PULL_REQUEST_TEMPLATE.md";
-         sourceTree = "<group>";
+         path = "docs";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_36" = {
          isa = "PBXFileReference";
-         path = "README.md";
-         sourceTree = "<group>";
+         path = "Build";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_37" = {
          isa = "PBXFileReference";
-         path = "CONTRIBUTING.md";
+         path = "Cartfile.resolved";
          sourceTree = "<group>";
       };
       "OBJ_38" = {
          isa = "PBXFileReference";
-         path = "LICENSE.txt";
+         path = "Cartfile";
+         sourceTree = "<group>";
+      };
+      "OBJ_39" = {
+         isa = "PBXFileReference";
+         path = "PULL_REQUEST_TEMPLATE.md";
          sourceTree = "<group>";
       };
       "OBJ_4" = {
@@ -462,15 +561,30 @@
          name = "Release";
       };
       "OBJ_40" = {
+         isa = "PBXFileReference";
+         path = "README.md";
+         sourceTree = "<group>";
+      };
+      "OBJ_41" = {
+         isa = "PBXFileReference";
+         path = "CONTRIBUTING.md";
+         sourceTree = "<group>";
+      };
+      "OBJ_42" = {
+         isa = "PBXFileReference";
+         path = "LICENSE.txt";
+         sourceTree = "<group>";
+      };
+      "OBJ_44" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_41",
-            "OBJ_42"
+            "OBJ_45",
+            "OBJ_46"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_41" = {
+      "OBJ_45" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -511,7 +625,7 @@
          };
          name = "Debug";
       };
-      "OBJ_42" = {
+      "OBJ_46" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -552,40 +666,21 @@
          };
          name = "Release";
       };
-      "OBJ_43" = {
+      "OBJ_47" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_44",
-            "OBJ_45",
-            "OBJ_46"
-         );
-      };
-      "OBJ_44" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_9";
-      };
-      "OBJ_45" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_10";
-      };
-      "OBJ_46" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_11";
-      };
-      "OBJ_47" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
             "OBJ_48",
-            "OBJ_49"
+            "OBJ_49",
+            "OBJ_50"
          );
       };
       "OBJ_48" = {
          isa = "PBXBuildFile";
-         fileRef = "LoggerAPI::LoggerAPI::Product";
+         fileRef = "OBJ_9";
       };
       "OBJ_49" = {
          isa = "PBXBuildFile";
-         fileRef = "swift-log::Logging::Product";
+         fileRef = "OBJ_10";
       };
       "OBJ_5" = {
          isa = "PBXGroup";
@@ -599,77 +694,50 @@
             "OBJ_35",
             "OBJ_36",
             "OBJ_37",
-            "OBJ_38"
+            "OBJ_38",
+            "OBJ_39",
+            "OBJ_40",
+            "OBJ_41",
+            "OBJ_42"
          );
          path = "";
          sourceTree = "<group>";
       };
       "OBJ_50" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_11";
+      };
+      "OBJ_51" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_52",
+            "OBJ_53"
+         );
+      };
+      "OBJ_52" = {
+         isa = "PBXBuildFile";
+         fileRef = "LoggerAPI::LoggerAPI::Product";
+      };
+      "OBJ_53" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-log::Logging::Product";
+      };
+      "OBJ_54" = {
          isa = "PBXTargetDependency";
          target = "LoggerAPI::LoggerAPI";
       };
-      "OBJ_52" = {
+      "OBJ_56" = {
          isa = "PBXTargetDependency";
          target = "swift-log::Logging";
       };
-      "OBJ_55" = {
+      "OBJ_59" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_56",
-            "OBJ_57"
+            "OBJ_60",
+            "OBJ_61"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_56" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_57" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Release";
-      };
-      "OBJ_58" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_59"
-         );
-      };
-      "OBJ_59" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_6";
       };
       "OBJ_6" = {
          isa = "PBXFileReference";
@@ -677,126 +745,80 @@
          path = "Package.swift";
          sourceTree = "<group>";
       };
+      "OBJ_60" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Debug";
+      };
       "OBJ_61" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
+      };
+      "OBJ_62" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_63"
+         );
+      };
+      "OBJ_63" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_6";
+      };
+      "OBJ_65" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_62",
-            "OBJ_63"
+            "OBJ_66",
+            "OBJ_67"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_62" = {
+      "OBJ_66" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
          };
          name = "Debug";
-      };
-      "OBJ_63" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-         };
-         name = "Release";
-      };
-      "OBJ_64" = {
-         isa = "PBXTargetDependency";
-         target = "HeliumLogger::HeliumLoggerTests";
-      };
-      "OBJ_66" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_67",
-            "OBJ_68"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
       };
       "OBJ_67" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "HeliumLogger.xcodeproj/HeliumLoggerTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "HeliumLoggerTests";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_68" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "HeliumLogger.xcodeproj/HeliumLoggerTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "HeliumLoggerTests";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Release";
       };
-      "OBJ_69" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_70",
-            "OBJ_71",
-            "OBJ_72",
-            "OBJ_73"
-         );
+      "OBJ_68" = {
+         isa = "PBXTargetDependency";
+         target = "HeliumLogger::HeliumLoggerTests";
       };
       "OBJ_7" = {
          isa = "PBXGroup";
@@ -808,48 +830,128 @@
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_70" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_14";
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_71",
+            "OBJ_72"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
       };
       "OBJ_71" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_15";
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "HeliumLogger.xcodeproj/HeliumLoggerTests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "HeliumLoggerTests";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
       };
       "OBJ_72" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_16";
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "HeliumLogger.xcodeproj/HeliumLoggerTests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "HeliumLoggerTests";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
       };
       "OBJ_73" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_17";
-      };
-      "OBJ_74" = {
-         isa = "PBXFrameworksBuildPhase";
+         isa = "PBXSourcesBuildPhase";
          files = (
+            "OBJ_74",
             "OBJ_75",
             "OBJ_76",
             "OBJ_77"
          );
       };
+      "OBJ_74" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_14";
+      };
       "OBJ_75" = {
          isa = "PBXBuildFile";
-         fileRef = "HeliumLogger::HeliumLogger::Product";
+         fileRef = "OBJ_15";
       };
       "OBJ_76" = {
          isa = "PBXBuildFile";
-         fileRef = "LoggerAPI::LoggerAPI::Product";
+         fileRef = "OBJ_16";
       };
       "OBJ_77" = {
          isa = "PBXBuildFile";
-         fileRef = "swift-log::Logging::Product";
+         fileRef = "OBJ_17";
       };
       "OBJ_78" = {
-         isa = "PBXTargetDependency";
-         target = "HeliumLogger::HeliumLogger";
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_79",
+            "OBJ_80",
+            "OBJ_81"
+         );
       };
       "OBJ_79" = {
-         isa = "PBXTargetDependency";
-         target = "LoggerAPI::LoggerAPI";
+         isa = "PBXBuildFile";
+         fileRef = "HeliumLogger::HeliumLogger::Product";
       };
       "OBJ_8" = {
          isa = "PBXGroup";
@@ -863,19 +965,35 @@
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_80" = {
+         isa = "PBXBuildFile";
+         fileRef = "LoggerAPI::LoggerAPI::Product";
+      };
+      "OBJ_81" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-log::Logging::Product";
+      };
+      "OBJ_82" = {
+         isa = "PBXTargetDependency";
+         target = "HeliumLogger::HeliumLogger";
+      };
+      "OBJ_83" = {
+         isa = "PBXTargetDependency";
+         target = "LoggerAPI::LoggerAPI";
+      };
+      "OBJ_84" = {
          isa = "PBXTargetDependency";
          target = "swift-log::Logging";
       };
-      "OBJ_81" = {
+      "OBJ_85" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_82",
-            "OBJ_83"
+            "OBJ_86",
+            "OBJ_87"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_82" = {
+      "OBJ_86" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -916,7 +1034,7 @@
          };
          name = "Debug";
       };
-      "OBJ_83" = {
+      "OBJ_87" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -957,29 +1075,15 @@
          };
          name = "Release";
       };
-      "OBJ_84" = {
+      "OBJ_88" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_85"
+            "OBJ_89"
          );
       };
-      "OBJ_85" = {
+      "OBJ_89" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_21";
-      };
-      "OBJ_86" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_87"
-         );
-      };
-      "OBJ_87" = {
-         isa = "PBXBuildFile";
-         fileRef = "swift-log::Logging::Product";
-      };
-      "OBJ_88" = {
-         isa = "PBXTargetDependency";
-         target = "swift-log::Logging";
       };
       "OBJ_9" = {
          isa = "PBXFileReference";
@@ -987,15 +1091,29 @@
          sourceTree = "<group>";
       };
       "OBJ_90" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_91"
+         );
+      };
+      "OBJ_91" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-log::Logging::Product";
+      };
+      "OBJ_92" = {
+         isa = "PBXTargetDependency";
+         target = "swift-log::Logging";
+      };
+      "OBJ_94" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_91",
-            "OBJ_92"
+            "OBJ_95",
+            "OBJ_96"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_91" = {
+      "OBJ_95" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
@@ -1014,146 +1132,52 @@
             SWIFT_VERSION = "5.0";
          };
          name = "Debug";
-      };
-      "OBJ_92" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Release";
-      };
-      "OBJ_93" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_94"
-         );
-      };
-      "OBJ_94" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_22";
-      };
-      "OBJ_95" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_96",
-            "OBJ_97"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
       };
       "OBJ_96" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "HeliumLogger.xcodeproj/Logging_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
+            LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "Logging";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5"
             );
             SWIFT_VERSION = "5.0";
-            TARGET_NAME = "Logging";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_97" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "HeliumLogger.xcodeproj/Logging_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "Logging";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "Logging";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Release";
       };
-      "OBJ_98" = {
+      "OBJ_97" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_99",
+            "OBJ_98"
+         );
+      };
+      "OBJ_98" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_22";
+      };
+      "OBJ_99" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
             "OBJ_100",
             "OBJ_101"
          );
-      };
-      "OBJ_99" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_25";
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
       };
       "swift-log::Logging" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_95";
+         buildConfigurationList = "OBJ_99";
          buildPhases = (
-            "OBJ_98",
-            "OBJ_102"
+            "OBJ_102",
+            "OBJ_106"
          );
          dependencies = (
          );
@@ -1169,9 +1193,9 @@
       };
       "swift-log::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_104";
+         buildConfigurationList = "OBJ_108";
          buildPhases = (
-            "OBJ_107"
+            "OBJ_111"
          );
          dependencies = (
          );
